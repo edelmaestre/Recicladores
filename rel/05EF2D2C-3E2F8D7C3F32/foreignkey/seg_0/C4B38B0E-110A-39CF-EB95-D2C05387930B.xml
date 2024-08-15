@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C4B38B0E-110A-39CF-EB95-D2C05387930B" containerWithKeyObject="2E0181F4-C1B7-354E-EC39-C3240D289461" localFKIndex="9ACE5637-2886-341C-3BCC-C7492DF4035B" name="Condi_ResSoli_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 22:51:17 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>ResiduosSolidos</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>48EDB24C-D72F-EF09-F959-6D8F10578A91</referredTableID>
+<keyObject>C0361E0C-0FD4-7537-DA28-8C579B9BFE8C</keyObject>
+<referredKeyID>C0361E0C-0FD4-7537-DA28-8C579B9BFE8C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codResiduosSolidos</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

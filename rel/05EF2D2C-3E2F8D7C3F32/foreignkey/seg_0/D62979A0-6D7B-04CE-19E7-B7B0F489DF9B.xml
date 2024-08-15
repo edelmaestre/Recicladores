@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D62979A0-6D7B-04CE-19E7-B7B0F489DF9B" containerWithKeyObject="D0CDA584-8850-090A-D0A2-27D056F59DB9" localFKIndex="9656CE1C-9076-459D-4D28-E9ED12FA7FE7" name="Salud_Psicologia_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 22:51:17 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>Psicologia</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>3C7F465C-04FA-E4B4-62D8-8C013BF592CE</referredTableID>
+<keyObject>CE612499-F3FB-2764-32D4-DF0000A1C293</keyObject>
+<referredKeyID>CE612499-F3FB-2764-32D4-DF0000A1C293</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoPsicologia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

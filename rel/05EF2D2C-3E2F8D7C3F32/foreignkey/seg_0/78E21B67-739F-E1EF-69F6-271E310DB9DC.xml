@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="78E21B67-739F-E1EF-69F6-271E310DB9DC" containerWithKeyObject="5A61F11B-E138-2B14-8B27-B4411B701AE1" localFKIndex="35371A69-62B2-DE65-AA10-854FA89FB49E" name="IdeiEsta_Afilia_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 22:51:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>AfiliadoRiezgo</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>65C41902-4058-5252-FB5E-2DB0FFEB6F8E</referredTableID>
+<keyObject>755F572D-0959-E51C-F9AC-0304483F53D2</keyObject>
+<referredKeyID>755F572D-0959-E51C-F9AC-0304483F53D2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>CodAfiliación</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

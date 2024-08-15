@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8850AD6E-2E5B-B081-C2F4-27FBFD1972E0" containerWithKeyObject="28B0D85E-68AF-0675-A1F4-A9E7089E3B33" localFKIndex="5B83EC2F-43F8-41AF-FDF1-1465DA406C10" name="Recic_TiempoLi_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 22:51:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>TiempoLibre</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>B0B1591D-717A-8423-1276-94E69AA44F8C</referredTableID>
+<keyObject>003D9564-88CD-5F07-8E8C-CDFE660E0ED9</keyObject>
+<referredKeyID>003D9564-88CD-5F07-8E8C-CDFE660E0ED9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoActividad</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

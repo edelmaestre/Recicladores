@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F1EA396B-B736-F8CF-EE4C-A967F04AB890" containerWithKeyObject="28B0D85E-68AF-0675-A1F4-A9E7089E3B33" localFKIndex="24BCE32B-B92A-6DD7-B167-8E60ACE59723" name="Reciclador_OrientOcu_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 22:51:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>OrientacionOcupacional</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4DCA205B-DB8C-8BEA-A73D-6EADA63BECE2</referredTableID>
+<keyObject>B1A27150-2F92-9F60-4BFC-B059214AA293</keyObject>
+<referredKeyID>B1A27150-2F92-9F60-4BFC-B059214AA293</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoOrientacioOcupacional</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
