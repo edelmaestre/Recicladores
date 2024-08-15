@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A5F9C6C8-412A-F733-21F1-422F35C6C6AF" name="documentado">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:28:26 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_60</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod" id="6EFEC5CE-72F7-753C-460B-090563A72CE2">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:28:52 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="documentado" id="AFDB1DA7-D056-3765-64F8-7CE782874A57">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:35:07 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 BYTE</dataTypeSize>
+<ownDataTypeParameters>3 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DE54B06-8DB4-E1C1-B5DC-A1A5BA939F87" name="documentado_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:32:45 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EFEC5CE-72F7-753C-460B-090563A72CE2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

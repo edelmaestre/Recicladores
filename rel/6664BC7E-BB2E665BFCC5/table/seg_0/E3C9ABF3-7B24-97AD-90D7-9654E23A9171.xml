@@ -1,0 +1,48 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E3C9ABF3-7B24-97AD-90D7-9654E23A9171" name="TiempoLibre">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:36:14 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_38</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoActividad" id="343F0FD9-AFA1-3897-7527-B525ECC1D7D3">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:37:30 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoActividad" id="F799D340-7E0D-6D04-D3B2-0BF6AA761464">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:37:30 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="441C802F-1A50-7A37-1BC1-57751B57E2DF" name="TiempoLibre_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:37:30 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="343F0FD9-AFA1-3897-7527-B525ECC1D7D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

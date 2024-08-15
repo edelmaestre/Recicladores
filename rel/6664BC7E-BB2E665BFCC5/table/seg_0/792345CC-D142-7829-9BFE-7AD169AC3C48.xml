@@ -1,0 +1,107 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="792345CC-D142-7829-9BFE-7AD169AC3C48" name="IngresoYTrabajo">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:25:04 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_34</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoIngresoYtrabajo" id="111B7C57-96FF-9219-7669-7F61F3D9CBFC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:26:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="proveeRecursos" id="CA772467-4061-463D-0D6E-7713E9134A7A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:27:01 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ventaMaterial" id="44D33C73-B1D3-E3D3-C222-C4F310C3CC3A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:28:28 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72213A38-41A3-7C16-9BE0-A94E2F47EE15" referredColumn="310329C5-2BA8-BA4F-D40E-07EF453B8EEF"/>
+</associations>
+</Column>
+<Column name="materialObtenido" id="2EFCCC67-A5A0-520B-0B01-E31D6AD118FC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:28:28 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afiliadoRiezgo" id="CE0612CB-6A11-2983-C94D-E3256AB183F4">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 18:03:39 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="25DDAD3A-BE1B-7647-D8CB-A592643C816F" referredColumn="F77CA3A6-40FD-4636-EDC5-CD589FEAB1CF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="126F95BE-39F4-9F72-42E5-A57CB4D1FE4E" name="IngresoYTrabajo_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 19:27:01 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="111B7C57-96FF-9219-7669-7F61F3D9CBFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="017EE218-6D77-23CE-23C1-220D32B3B5C6" name="InYTr_IdeEstabl_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:46:55 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44D33C73-B1D3-E3D3-C222-C4F310C3CC3A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7A437ED8-BE61-FBBC-BB6C-31884F3457C7" name="IngrYTr_Afiliado_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 18:05:19 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE0612CB-6A11-2983-C94D-E3256AB183F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

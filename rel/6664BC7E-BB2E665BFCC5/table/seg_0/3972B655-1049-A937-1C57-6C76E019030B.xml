@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3972B655-1049-A937-1C57-6C76E019030B" name="IntegradoPlaga">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:17:07 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_57</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoIntegradoPlaga" id="C86A51B1-0F98-21A3-A6A6-E5CA8F5B2D42">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:17:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item" id="63D5E5C8-18C4-49BC-8065-42FFFE8476C8">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:18:26 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A187B739-88A4-BD5A-3D7B-3E0BCD55ABFB" referredColumn="A478ECB6-3690-7B2B-CBC1-C0F8A2013832"/>
+</associations>
+</Column>
+<Column name="hallazgo" id="B9E368F5-5D54-3E5F-54FD-419FF43B4F7E">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:18:26 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D4339D2-6E93-428E-4908-CDB0997C7D80" referredColumn="1B2728AE-B8A8-A715-17C3-9C025EE10E3A"/>
+</associations>
+</Column>
+<Column name="calificacionBloque3" id="9733AF4A-5631-7DDC-674F-2F400D7E07B0">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:28:07 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EEB79F48-17F0-0A1A-7534-067875E38F0D" name="IntegradoPlaga_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:17:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C86A51B1-0F98-21A3-A6A6-E5CA8F5B2D42"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C5E92785-0C84-E1ED-CE97-259529FB6A0B" name="IntegradoPlaga_descripcionItems_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:07:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63D5E5C8-18C4-49BC-8065-42FFFE8476C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E656169-4EBE-602D-7DBE-BF44D147AB1C" name="IntegradoPlaga_descripcionHallazgo_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:07:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B9E368F5-5D54-3E5F-54FD-419FF43B4F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,275 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1670CAB6-6717-07C5-7AF0-8B6E4DF2FAAD" name="Condicion">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:43:05 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_43</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoCondicion" id="7500B30F-AB9F-E2EC-8EB4-2319BD8D0202">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:43:50 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locativa" id="670657A7-F63E-D6B6-3E3B-4808F07AA140">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58620457-6B14-045E-BDA1-DB02431E0D7D" referredColumn="C62BB2A6-16B4-78BF-F4CC-5CD96C62A566"/>
+</associations>
+</Column>
+<Column name="sanitaria" id="1D354411-9AA8-D120-7997-E5E25513EB53">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F7FB433-B99C-21E8-139F-F247E92EDEDE" referredColumn="8FBC3B3E-88A1-3416-0071-12650263C5C8"/>
+</associations>
+</Column>
+<Column name="abastecimientoDeAgua" id="BD988B99-F99F-BDA4-0A99-54970A8AB7F0">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F898C769-E981-CFF8-7AFC-63587AF7F668" referredColumn="AF6DBA0D-E3D8-9C94-CD1D-41B82389FA10"/>
+</associations>
+</Column>
+<Column name="disposicionVertimientos" id="1809EB00-9857-A22C-BFEA-32F287EACE34">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96B64FDE-424D-D5FB-D91A-DE8C8944836B" referredColumn="348C8561-2E26-1D24-632C-C510E9F6D26D"/>
+</associations>
+</Column>
+<Column name="residuosSolidos" id="5B41C423-57E8-3BBE-BB73-F4FB5BF5456D">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4302031C-99A4-B830-9590-58C4A22D30DB" referredColumn="37B4D288-E778-AAF6-CE18-0230F172B75E"/>
+</associations>
+</Column>
+<Column name="integradoPlaga" id="8E9005DB-08C2-7930-46D3-63B68983647F">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF1A2C97-7C74-B472-676E-A1AD9D7D386D" referredColumn="C86A51B1-0F98-21A3-A6A6-E5CA8F5B2D42"/>
+</associations>
+</Column>
+<Column name="condicionesSeguridad" id="9245C792-3F03-2EBB-88D7-C015BDD36F17">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="745A70A2-2F91-BECC-98E2-BC7D301D62A9" referredColumn="A9024DCA-3545-4FBA-901F-92A817BAD142"/>
+</associations>
+</Column>
+<Column name="rLegalesEstablecimiento" id="60988BBE-3A70-2098-9A52-75BFC93A7EF3">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D0DAB07-F229-D32E-1C1F-EA89CC8A5867" referredColumn="78266107-8826-B041-13B8-66B5EC3C7A9C"/>
+</associations>
+</Column>
+<Column name="residuosAprovechables" id="141CCDB1-C0EF-3B7B-16BF-F49E12598B2A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="984EC4A3-D4A5-C916-6591-628DC13719D4" referredColumn="BD6143FB-5162-7C9E-4BC1-9D0DF5C83D35"/>
+</associations>
+</Column>
+<Column name="criterioEvaluacion" id="A320471F-6D9D-7D30-451C-80A5854063B6">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:22:28 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAA5173E-A340-EDD4-4E44-64AD78397146" referredColumn="8301EB69-6D0D-A5D7-6C46-9C64BEFFEE49"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="784095B6-92A9-004D-20B8-6A5BB9387303" name="Condicion_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:43:50 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7500B30F-AB9F-E2EC-8EB4-2319BD8D0202"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FC69C6FD-FDC5-43A2-F991-36330A8B3317" name="Condic_ReiAprove_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:48:55 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="141CCDB1-C0EF-3B7B-16BF-F49E12598B2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F954D8C3-15C0-44D0-57ED-60130FD4D36B" name="Condicion_Locativa_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:01:50 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="670657A7-F63E-D6B6-3E3B-4808F07AA140"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EDBB4555-B7DD-8A3E-218E-67672E9D7EF7" name="Condicion_Sanitaria_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:05:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D354411-9AA8-D120-7997-E5E25513EB53"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2313DE-F643-7BD3-69A2-858ADB6DEF57" name="Condic_AbastAgua_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:09:10 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BD988B99-F99F-BDA4-0A99-54970A8AB7F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0FF3E6B5-A30E-6894-B593-F9C491D542AB" name="Cond_DispoVerti_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:13:19 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1809EB00-9857-A22C-BFEA-32F287EACE34"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F46D929B-48AC-922F-A66A-F143E5D2046B" name="Condi_ResSoli_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:16:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B41C423-57E8-3BBE-BB73-F4FB5BF5456D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7C83D3FA-A943-A1C5-5EE3-F1C24DD93B69" name="Con_CritEva_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:22:41 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A320471F-6D9D-7D30-451C-80A5854063B6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BC45C11A-7FB3-42C2-603B-9E3FA69689F9" name="Condi_IntePl_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:23:14 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8E9005DB-08C2-7930-46D3-63B68983647F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82E19E29-3ED7-6759-FDB5-9A2D1F060D5F" name="Con_ConSe_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:29:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9245C792-3F03-2EBB-88D7-C015BDD36F17"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0907C29A-E2C1-A8CA-D085-74EC901B7A66" name="Con_RLegalEstab_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:31:48 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="60988BBE-3A70-2098-9A52-75BFC93A7EF3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

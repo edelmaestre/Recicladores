@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9E539B0A-3B7D-82C5-F506-B833C2FEF1BE" name="ResiduosSolidos">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:14:00 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_56</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codResiduosSolidos" id="37B4D288-E778-AAF6-CE18-0230F172B75E">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:14:40 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Item" id="1FB088A4-1B0E-8FC9-774C-E7A165597342">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:14:40 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="97D4ECCD-E2C3-6E39-8CA3-A45FC537327A" referredColumn="A478ECB6-3690-7B2B-CBC1-C0F8A2013832"/>
+</associations>
+</Column>
+<Column name="hallazgo" id="55569F72-61B9-AFFA-7436-E988ECB80BE5">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:15:49 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A76A0E15-E4F8-893A-910E-09CF8B058F88" referredColumn="1B2728AE-B8A8-A715-17C3-9C025EE10E3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="551A506E-616C-501D-A5D3-767CC08D2E12" name="ResiduosSolidos_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:14:40 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="37B4D288-E778-AAF6-CE18-0230F172B75E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F33BD92-DCB9-2EC9-3639-B4AE303FD882" name="ResiduosSolidos_descripcionItems_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:09:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1FB088A4-1B0E-8FC9-774C-E7A165597342"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F5626FB9-2823-5B88-421D-810C73D9B7AB" name="ResiduosSolidos_descripcionHallazgo_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:09:19 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55569F72-61B9-AFFA-7436-E988ECB80BE5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

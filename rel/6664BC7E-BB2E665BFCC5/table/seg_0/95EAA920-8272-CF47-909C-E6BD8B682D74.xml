@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="95EAA920-8272-CF47-909C-E6BD8B682D74" name="EstratoSocioeconomico">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:37:11 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_50</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoEstrato" id="C4B2DA3D-6CAD-9265-79BE-11461DEB1C63">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:37:54 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estrato" id="5ED139BA-6551-154E-CB5B-DC7437E75697">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:38:13 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6DA1DA95-8448-288B-D446-0D360AC5498E" name="EstratoSocioeconomico_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:37:54 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4B2DA3D-6CAD-9265-79BE-11461DEB1C63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

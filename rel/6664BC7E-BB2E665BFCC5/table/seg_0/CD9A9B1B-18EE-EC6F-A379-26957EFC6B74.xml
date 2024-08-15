@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CD9A9B1B-18EE-EC6F-A379-26957EFC6B74" name="Administrador">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:37:33 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedulaAdmin" id="F7F01CF6-1A00-054C-285A-09E44EF1B182">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:59:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombresAdmin" id="B3658C80-8D46-C770-8257-2F03B473A7D2">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:59:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidosAdmin" id="B890D628-0153-1100-2FA5-374A38481B49">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:59:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="institucion" id="94191C6A-4E5C-23B9-0223-8B74AC71FCFC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:39:47 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16233273-910E-0F32-6E45-DFFE99A4F73C" referredColumn="31A3105F-FA7E-57E5-5453-38F70ED0B721"/>
+</associations>
+</Column>
+<Column name="cargoAdmin" id="815A8C04-2B2A-2A66-E8D4-3C13DD127D16">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:02:07 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoUsuarioAdmin" id="64FC45E7-F403-EC90-10B3-BC286AF597F7">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:03:19 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoAdmin" id="A553293C-FD3A-DC5E-9E72-40A68983654B">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:02:32 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="625226C3-D1A3-0DE6-E2E5-1EC3925C69E4">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-11 02:03:45 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2E736F1-549E-3DC7-4D51-1C959ABA84A1" name="Administrador_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:00:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F7F01CF6-1A00-054C-285A-09E44EF1B182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2EF790D7-BC43-C0DF-E161-417BFF261B69" name="Administrador_Institucion_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:43:01 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94191C6A-4E5C-23B9-0223-8B74AC71FCFC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

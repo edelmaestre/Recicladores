@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F199039D-1438-5760-7E94-6F526040B9AD" name="Municipio">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 22:05:29 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_30</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoMunicipio" id="86448F60-6EF1-DC4A-14A1-FC03D7F5C145">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 22:05:53 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreMunicipio" id="9232FE5A-5820-EDFF-BA25-912E0FD32C63">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 22:06:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40FFB60B-0B7E-2629-04AE-6342625E5350" name="Municipio_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 22:06:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86448F60-6EF1-DC4A-14A1-FC03D7F5C145"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

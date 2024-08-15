@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E428935C-507E-621A-298A-B5E051B7B3D0" name="MetodoPlanificacion">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:02:21 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_27</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoPlanificacion" id="6DD20441-51AA-29B8-BADF-1E9E02771B45">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:03:29 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombreMetodoPlanificacion" id="DE83CBAD-0146-C27D-A9E1-2B77693166C6">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:03:29 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79EF85B1-35CF-0527-9A77-BC2CCB2F7AC2" name="MetodoPlanificacion_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:03:29 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6DD20441-51AA-29B8-BADF-1E9E02771B45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8DA3F9A-4F03-B733-564B-69F9E24EF1A1" name="Educacion">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:39:18 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoEducacion" id="A7E143CA-F5C4-59E2-77E9-32D1D1216756">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:47:00 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nivelEducativo" id="177D5C6F-FBDD-42B6-3708-7A8C5C69C786">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:47:00 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="492F5A79-665C-B3B2-FE78-57BAB00C76FD" name="Educacion_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:47:00 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A7E143CA-F5C4-59E2-77E9-32D1D1216756"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

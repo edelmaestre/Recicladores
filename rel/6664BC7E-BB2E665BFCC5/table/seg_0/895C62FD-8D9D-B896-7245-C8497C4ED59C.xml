@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="895C62FD-8D9D-B896-7245-C8497C4ED59C" name="Locativa">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:55:45 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_49</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CodigoLocativa" id="C62BB2A6-16B4-78BF-F4CC-5CD96C62A566">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:56:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item" id="801F0FEA-E1B1-2C7B-B761-A17BCC14B5F1">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 19:22:10 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7143469F-E1CB-86E2-6C67-9DA8B2239884" referredColumn="A478ECB6-3690-7B2B-CBC1-C0F8A2013832"/>
+</associations>
+</Column>
+<Column name="Hallazgo" id="249AA486-86AB-54D1-B82C-4C85EB18C45B">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 19:25:53 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E6158B7-6328-E6BF-B19A-864BA26E2CA3" referredColumn="1B2728AE-B8A8-A715-17C3-9C025EE10E3A"/>
+</associations>
+</Column>
+<Column name="calificacionBloque1" id="841E96D0-E12B-B0A2-1ECE-880D2631475A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:01:11 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codDescripcion" id="54BF54D7-64E0-C891-44AE-AACB43254BBC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 19:13:49 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C7A009DF-27F8-3A47-5E13-31713D34E4CD" name="Locativa_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:56:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C62BB2A6-16B4-78BF-F4CC-5CD96C62A566"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A636E90-2E26-C014-3E1F-A48D02B7FB24" name="Locativa_descripcionItemLocativa_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 19:34:41 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="801F0FEA-E1B1-2C7B-B761-A17BCC14B5F1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1A5AB60B-AD6F-9882-77F1-52C855BC64C6" name="Locativa_descripcionHallazgo_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 19:37:58 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="249AA486-86AB-54D1-B82C-4C85EB18C45B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

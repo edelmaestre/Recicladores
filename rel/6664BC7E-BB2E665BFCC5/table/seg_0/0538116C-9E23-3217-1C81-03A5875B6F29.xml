@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0538116C-9E23-3217-1C81-03A5875B6F29" name="ResidenciaFamilia">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:16:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_71</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codResidenciaFamilia" id="7CF11E6E-81DC-7BD7-D459-23311EE01E88">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:17:32 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codDepartamento" id="A9F81B50-A836-2EF6-ACBF-1DC640B416EE">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:17:52 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="codMunicipio" id="7BFAE5C6-A527-739E-1F9D-C5D6C2055A73">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:18:10 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D2DEEB2F-E385-D30F-26C9-CD419C6EC740" name="ResidenciaFamilia_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:17:32 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CF11E6E-81DC-7BD7-D459-23311EE01E88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

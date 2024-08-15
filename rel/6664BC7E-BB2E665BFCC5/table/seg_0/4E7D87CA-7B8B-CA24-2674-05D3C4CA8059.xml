@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4E7D87CA-7B8B-CA24-2674-05D3C4CA8059" name="CumplimCondSanitarias">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:15:05 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_67</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codCumCondSanit" id="B27542EC-AB94-0897-DD49-CEBC11F2AE36">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:16:12 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentajeCumplimiento" id="60F6E11E-0403-9870-86EF-3927BB62B7AA">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:19:32 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="conceptoSanitAEmitir" id="7DF2939A-0C4B-CEF5-A5A8-65A54070EBCF">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:19:32 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="466B201A-F64B-1D41-3998-A16175DF1ED7" name="CumpliCondSanit_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:16:12 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B27542EC-AB94-0897-DD49-CEBC11F2AE36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

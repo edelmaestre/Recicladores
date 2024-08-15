@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F3B3B802-817D-B601-7298-A73CF12E78AD" name="Censo">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:37:14 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cedulaEncuestador" id="11B29E4B-5A7C-2BF9-609D-52AFB936FE29">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:39:49 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B42A4352-76ED-D5DA-2E46-FC646C8763ED" referredColumn="43382686-8A71-A1BC-6810-F5952A6BDE4A"/>
+</associations>
+</Column>
+<Column name="registroCensoNo" id="367DD15F-C377-640E-0842-BA60F45B354B">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:52:26 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaDiligenciamiento" id="29041D71-B69A-E56F-4F7E-985EA77449DD">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:55:05 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="reciclador" id="B0D1B33A-78FC-409A-9175-644DDF1191A1">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:47:41 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="227381F6-D2CA-834A-D505-6B6FE9C15AC6" referredColumn="0951B7B6-6C06-52AB-B12D-814D582C9F8B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="25524AA8-F05C-6499-0100-4BE6CD55C02D" name="Censo_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 20:52:26 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="367DD15F-C377-640E-0842-BA60F45B354B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="408A30FD-F68A-5519-7E0A-7A975ADCD849" name="Censo_Encue_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 21:41:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="11B29E4B-5A7C-2BF9-609D-52AFB936FE29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43B78276-8CD3-3A17-FF7D-DACFC028ADF6" name="Censo_Reciclador_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 16:11:33 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B0D1B33A-78FC-409A-9175-644DDF1191A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

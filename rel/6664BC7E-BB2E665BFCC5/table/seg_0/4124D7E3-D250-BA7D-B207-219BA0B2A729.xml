@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4124D7E3-D250-BA7D-B207-219BA0B2A729" name="CriterioEvaluación">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 16:35:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_47</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoCriterio" id="8301EB69-6D0D-A5D7-6C46-9C64BEFFEE49">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 16:36:22 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="criterio" id="A40E6453-8426-11A5-2F09-5A9F16E38CCD">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 16:36:22 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2 CHAR</dataTypeSize>
+<ownDataTypeParameters>2 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5770CA8E-871E-B49F-8A7C-4447B6A96FA7" name="CriterioEvaluación_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 16:36:22 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8301EB69-6D0D-A5D7-6C46-9C64BEFFEE49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

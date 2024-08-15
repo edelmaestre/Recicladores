@@ -1,0 +1,211 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C6B53F3-E94F-F475-57DB-DCC07572D035" name="Salud">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:50:12 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_25</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoSalud" id="2DA9D02A-2D8A-E851-7082-70B915F24B9D">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:59:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enfermedad" id="49888C98-E276-5B8A-E093-DB2E7F7C9A5C">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:53:00 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B542BA0-B409-A637-3FCA-1955BF66784A" referredColumn="2D89024F-65D0-D981-307F-8E2525B4119F"/>
+</associations>
+</Column>
+<Column name="psicologia" id="1D2475D2-81AB-A02D-4D57-B96782B82EF0">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:53:06 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4AA43F4A-4CD0-EC08-B0E9-5822011A4EA7" referredColumn="4C9D227F-457C-48B5-3657-9D240A48B181"/>
+</associations>
+</Column>
+<Column name="dificultad" id="0599CB15-21C2-B6DD-49F0-7DE5E2453C83">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:53:06 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="regimen" id="1E26CD58-7081-22EB-6CD8-EC646FEC854C">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:53:06 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1A0AF9B2-E4BE-79AE-122C-0C4E7AB2EB54" referredColumn="3AA1E7C6-F9B0-DFB1-EE34-058A26E3F0BF"/>
+</associations>
+</Column>
+<Column name="bebe" id="07B4A7B8-5B13-AF74-B9C7-F9B7330DE402">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:02:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fuma" id="ADD5EE6F-7B56-A9CB-EAF9-5681C73EC19A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:02:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vidaSexual" id="E51EA67A-31F8-CE78-F4AD-BBCDEC603A18">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:02:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="planifica" id="9FFA9E49-8282-17F3-A11A-5B461198874E">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:02:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DFB9DD5-A356-A5A9-1955-3D7E9DAC344D" referredColumn="6DD20441-51AA-29B8-BADF-1E9E02771B45"/>
+</associations>
+</Column>
+<Column name="sustanciaPsicoactiva" id="39F2BB26-09AF-4203-C70C-B41670A465D2">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:04:20 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0335A753-BB63-7AE9-071B-FCB0575992EC" referredColumn="4DF4F8AC-0736-5CD4-5A7C-082E01329CD3"/>
+</associations>
+</Column>
+<Column name="frecuenciaConsumo" id="2F720BDB-6515-1FCA-AE76-BE8C3C59CD8F">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 18:07:16 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FB8AD404-5E53-416D-449C-6C0457A12DBA" name="Salud_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 17:59:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2DA9D02A-2D8A-E851-7082-70B915F24B9D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29C02637-DBE9-1C1E-CAFF-9F5A6034FB8D" name="Sal_Enfe_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:48:17 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49888C98-E276-5B8A-E093-DB2E7F7C9A5C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C32F1B69-18FF-7C21-4D78-8D57940A7B85" name="Sal_MePla_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:48:47 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FFA9E49-8282-17F3-A11A-5B461198874E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89190DF4-EB48-3040-8CFA-B1AB69D109A0" name="Salud_SustPsi_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:49:50 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39F2BB26-09AF-4203-C70C-B41670A465D2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DCEC6CEB-FCE8-7374-E70C-6C66A35DD190" name="Salud_Psicologia_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:26:55 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D2475D2-81AB-A02D-4D57-B96782B82EF0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E3CADF3-AD6A-23DD-7C96-E234FD831FC4" name="Salud_regimen_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:29:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E26CD58-7081-22EB-6CD8-EC646FEC854C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

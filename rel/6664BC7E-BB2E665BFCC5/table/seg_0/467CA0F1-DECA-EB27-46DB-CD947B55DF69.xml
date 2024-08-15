@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="467CA0F1-DECA-EB27-46DB-CD947B55DF69" name="TipoEstablecimiento">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:48:07 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoEstablecimiento" id="4488B47D-F7A8-D611-C7E6-AC8F9FD8F6D0">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:48:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoEstablecimiento" id="A18CB808-E5B5-7584-220D-4A3621BA1F1A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:48:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C6AC156-06FE-6805-E0D6-C5C4115ED45D" name="tipoEstablecimiento_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-03 21:48:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4488B47D-F7A8-D611-C7E6-AC8F9FD8F6D0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5B4D3486-1C87-79A8-6CB8-56E8D2B7F620" name="AbastecimientoAgua">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:05:48 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_54</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codAbastecimientoAgua" id="AF6DBA0D-E3D8-9C94-CD1D-41B82389FA10">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:06:22 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item" id="B6FB9C75-B55D-6E0C-24AF-F163A87299D5">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:07:36 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F632149C-D0BC-1DA0-6706-CF7C00400A29" referredColumn="A478ECB6-3690-7B2B-CBC1-C0F8A2013832"/>
+</associations>
+</Column>
+<Column name="hallazgo" id="6B0F6236-E95E-0CE2-365B-2C2E7FBF57CC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:07:36 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02C3958F-4033-3B2F-F5A0-D64F323FCAE6" referredColumn="1B2728AE-B8A8-A715-17C3-9C025EE10E3A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD168F00-92BB-BF01-2F52-E5A7FF17121A" name="AbastecimientoAgua_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:06:22 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF6DBA0D-E3D8-9C94-CD1D-41B82389FA10"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A56890D6-1B65-2C8A-8DC2-EA948C2EEACD" name="AbastecimientoAgua_descripcionItems_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:02:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B6FB9C75-B55D-6E0C-24AF-F163A87299D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4329A45D-4D2D-EA46-74E9-18DAAB5702D7" name="AbastecimientoAgua_descripcionHallazgo_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:02:43 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B0F6236-E95E-0CE2-365B-2C2E7FBF57CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

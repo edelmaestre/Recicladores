@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F505F108-323C-ACFB-F252-285DB721450C" name="ConceSanitarUltimaVis">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:31:03 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_40</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoUltimaVisita" id="57DA7DB5-89A4-3D83-5946-7406D1697101">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:32:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaUltimaInspeccion" id="E397C3EB-636D-C2AF-68C4-A4811B0FF5BF">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:32:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actaUltimaVisita" id="4E3FDEDA-DA1D-B9B0-69F2-F1814D599431">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:35:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoConceptoSanitario" id="5862008D-3B7B-D624-DF29-1276B9A632BC">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:35:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10 CHAR</dataTypeSize>
+<ownDataTypeParameters>10 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="porcentajeCumplimientoInsp" id="22B66FAC-121F-302C-ABB8-04A967ACC64D">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:35:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="123D25B8-0DBE-95FA-0308-219E28235DBC" name="CSaniUVi_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:32:44 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57DA7DB5-89A4-3D83-5946-7406D1697101"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

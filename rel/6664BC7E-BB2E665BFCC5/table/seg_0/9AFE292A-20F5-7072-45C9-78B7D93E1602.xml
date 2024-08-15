@@ -1,0 +1,92 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AFE292A-20F5-7072-45C9-78B7D93E1602" name="Sanitaria">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:02:05 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<ordsAlias>table_51</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigoSanitaria" id="8FBC3B3E-88A1-3416-0071-12650263C5C8">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:02:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="item" id="D4C7403C-8698-ACB5-5A77-A5710B0A0F88">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:03:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAF7BE7F-BA22-6341-CA7E-2A3AE03B54C5" referredColumn="A478ECB6-3690-7B2B-CBC1-C0F8A2013832"/>
+</associations>
+</Column>
+<Column name="hallazgo" id="A2EA6C1C-BF4B-5C31-5119-EEF928EB06D5">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:04:33 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E33A9766-916E-2B27-C96C-5F6515CDB3CF" referredColumn="1B2728AE-B8A8-A715-17C3-9C025EE10E3A"/>
+</associations>
+</Column>
+<Column name="calificacionBloque2" id="89A0115D-906A-CA91-D2DE-DB33E0835A8F">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:04:33 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C43E912-C007-7D57-772E-BA11928FA191" name="Sanitaria_PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:02:25 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8FBC3B3E-88A1-3416-0071-12650263C5C8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C1B495B-A4D5-728E-6BFD-A0580F44115E" name="Sanitaria_descripcionItems_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:00:52 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D4C7403C-8698-ACB5-5A77-A5710B0A0F88"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19E67228-596A-7C71-618A-6B9B95C37844" name="Sanitaria_descripcionHallazgo_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:01:02 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A2EA6C1C-BF4B-5C31-5119-EEF928EB06D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
