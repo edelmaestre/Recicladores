@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9440AB63-5B67-3CC7-FE70-B158567418E5" containerWithKeyObject="C6BBAF63-5020-A48B-5CB1-7302033EF6D6" localFKIndex="FF7C9EB5-9123-6CAE-A100-68193B879974" name="Visita_Condicion_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:49:27 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>Condicion</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>1670CAB6-6717-07C5-7AF0-8B6E4DF2FAAD</referredTableID>
+<keyObject>784095B6-92A9-004D-20B8-6A5BB9387303</keyObject>
+<referredKeyID>784095B6-92A9-004D-20B8-6A5BB9387303</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoCondicion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

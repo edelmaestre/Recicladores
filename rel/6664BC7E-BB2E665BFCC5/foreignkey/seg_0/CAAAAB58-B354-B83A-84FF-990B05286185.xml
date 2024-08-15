@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CAAAAB58-B354-B83A-84FF-990B05286185" containerWithKeyObject="FF82588C-30BF-2A45-1782-B3B765B264F7" localFKIndex="820AF82F-1D45-1385-E149-657D0A89DD84" name="Recic_dotac_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:08:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>dotacionPersonal</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>3B7E2BCC-3A0A-0FD0-8D55-7B45B6F46E76</referredTableID>
+<keyObject>7329B8E3-FBE1-8D7E-1844-3D264BDB1730</keyObject>
+<referredKeyID>7329B8E3-FBE1-8D7E-1844-3D264BDB1730</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoDotacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

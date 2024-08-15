@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0335A753-BB63-7AE9-071B-FCB0575992EC" containerWithKeyObject="0C6B53F3-E94F-F475-57DB-DCC07572D035" localFKIndex="89190DF4-EB48-3040-8CFA-B1AB69D109A0" name="Salud_SustPsi_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-05 22:49:50 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>SustanciaPsicoactiva</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>3A76810C-91CD-631D-611E-2279B1D6F9F6</referredTableID>
+<keyObject>5BC3F2AC-0CE0-C820-7398-39931C51D0C0</keyObject>
+<referredKeyID>5BC3F2AC-0CE0-C820-7398-39931C51D0C0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames> codigoSustancia</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

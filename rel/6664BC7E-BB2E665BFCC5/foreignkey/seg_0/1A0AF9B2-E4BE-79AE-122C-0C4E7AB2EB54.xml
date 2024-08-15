@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1A0AF9B2-E4BE-79AE-122C-0C4E7AB2EB54" containerWithKeyObject="0C6B53F3-E94F-F475-57DB-DCC07572D035" localFKIndex="3E3CADF3-AD6A-23DD-7C96-E234FD831FC4" name="Salud_regimen_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 17:29:34 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>regimen</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5288C6D9-6B14-D2AA-BAE0-AFD89F3BF136</referredTableID>
+<keyObject>1D3E074F-B9E4-61A8-D6B9-C443B681AAE1</keyObject>
+<referredKeyID>1D3E074F-B9E4-61A8-D6B9-C443B681AAE1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codRegimen</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

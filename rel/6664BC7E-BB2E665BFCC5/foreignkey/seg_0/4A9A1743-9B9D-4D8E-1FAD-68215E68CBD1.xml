@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4A9A1743-9B9D-4D8E-1FAD-68215E68CBD1" containerWithKeyObject="FF82588C-30BF-2A45-1782-B3B765B264F7" localFKIndex="36A2C73D-6F2A-B03F-95E6-D5CAF73571BF" name="Recicl_Vulnerabi_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 16:57:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>Vulnerabilidades</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>30EAB366-96E3-A18A-3257-3D561DECE280</referredTableID>
+<keyObject>C00C5A25-CCD4-AE96-2C42-C1F27511CEC5</keyObject>
+<referredKeyID>C00C5A25-CCD4-AE96-2C42-C1F27511CEC5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoVulnerabilidades</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

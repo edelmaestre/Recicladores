@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4F7FB433-B99C-21E8-139F-F247E92EDEDE" containerWithKeyObject="1670CAB6-6717-07C5-7AF0-8B6E4DF2FAAD" localFKIndex="EDBB4555-B7DD-8A3E-218E-67672E9D7EF7" name="Condicion_Sanitaria_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:05:08 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>Sanitaria</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>9AFE292A-20F5-7072-45C9-78B7D93E1602</referredTableID>
+<keyObject>9C43E912-C007-7D57-772E-BA11928FA191</keyObject>
+<referredKeyID>9C43E912-C007-7D57-772E-BA11928FA191</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoSanitaria</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

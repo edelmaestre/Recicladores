@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9758E9F8-C6AB-E9EA-142B-F448B6668088" containerWithKeyObject="C6BBAF63-5020-A48B-5CB1-7302033EF6D6" localFKIndex="CC266B70-A113-AB1D-BFE8-342B054C670D" name="Visita_CSaUlV_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:36:37 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>ConceSanitarUltimaVis</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>F505F108-323C-ACFB-F252-285DB721450C</referredTableID>
+<keyObject>123D25B8-0DBE-95FA-0308-219E28235DBC</keyObject>
+<referredKeyID>123D25B8-0DBE-95FA-0308-219E28235DBC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codigoUltimaVisita</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

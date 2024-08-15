@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96B64FDE-424D-D5FB-D91A-DE8C8944836B" containerWithKeyObject="1670CAB6-6717-07C5-7AF0-8B6E4DF2FAAD" localFKIndex="0FF3E6B5-A30E-6894-B593-F9C491D542AB" name="Cond_DispoVerti_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:13:19 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>DisposiciónVertimiento</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>491F7D53-20EA-6F88-D5B2-1C1C5CC309CC</referredTableID>
+<keyObject>07DDB431-3632-8289-39C8-649D6533FB0A</keyObject>
+<referredKeyID>07DDB431-3632-8289-39C8-649D6533FB0A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codDisposiciónVertimiento</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

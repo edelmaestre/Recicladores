@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B3F0F539-6C5A-60CC-73D9-FB7BE6C546F7" containerWithKeyObject="C6BBAF63-5020-A48B-5CB1-7302033EF6D6" localFKIndex="F95B7C3A-8C85-60E8-B631-509B345C1218" name="Visita_CumplCondSan_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 20:42:11 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>CumplimCondSanitarias</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>4E7D87CA-7B8B-CA24-2674-05D3C4CA8059</referredTableID>
+<keyObject>466B201A-F64B-1D41-3998-A16175DF1ED7</keyObject>
+<referredKeyID>466B201A-F64B-1D41-3998-A16175DF1ED7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codCumCondSanit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

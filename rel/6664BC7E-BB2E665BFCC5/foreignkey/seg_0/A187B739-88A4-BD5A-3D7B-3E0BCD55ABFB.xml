@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A187B739-88A4-BD5A-3D7B-3E0BCD55ABFB" containerWithKeyObject="3972B655-1049-A937-1C57-6C76E019030B" localFKIndex="C5E92785-0C84-E1ED-CE97-259529FB6A0B" name="IntegradoPlaga_descripcionItems_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-28 20:07:38 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>descripcionItems</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4E40D321-F64A-5BD9-401C-C7ABABA4865F</referredTableID>
+<keyObject>61381966-2BDE-FA25-6517-A40FE2D427F0</keyObject>
+<referredKeyID>61381966-2BDE-FA25-6517-A40FE2D427F0</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

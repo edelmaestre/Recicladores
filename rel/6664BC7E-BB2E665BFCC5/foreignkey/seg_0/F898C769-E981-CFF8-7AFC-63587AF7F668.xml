@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="F898C769-E981-CFF8-7AFC-63587AF7F668" containerWithKeyObject="1670CAB6-6717-07C5-7AF0-8B6E4DF2FAAD" localFKIndex="6F2313DE-F643-7BD3-69A2-858ADB6DEF57" name="Condic_AbastAgua_FK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 21:09:10 UTC</createdTime>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<referredTableLongName>AbastecimientoAgua</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5B4D3486-1C87-79A8-6CB8-56E8D2B7F620</referredTableID>
+<keyObject>FD168F00-92BB-BF01-2F52-E5A7FF17121A</keyObject>
+<referredKeyID>FD168F00-92BB-BF01-2F52-E5A7FF17121A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>codAbastecimientoAgua</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
