@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="E3847E2F-81AF-A795-B731-B2E233BECFC3">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-22 15:40:58 UTC</createdTime>
+<ownerDesignName>recicladores-copia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>
