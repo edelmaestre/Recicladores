@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="530626B0-396A-568A-75F2-D9C05545B052" name="Psicologiav1">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>2E17366F-F265-9A14-9E39-9883272B6098</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoPsicologia" id="E3191E03-5F06-257E-860F-D3E93574D86E">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>4C9D227F-457C-48B5-3657-9D240A48B181</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombreEnfermedad" id="3713384C-21B3-E949-35C2-C00383DD78F2">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>EB2BD5C2-4DE4-96D0-AD97-DAC2B4DA0C12</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="trat6amiento" id="4A8C62AC-A672-8EAD-3188-F49E2DFAB084">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>88C76A63-34C2-397F-CB2F-8F9986AE9E83</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0714D317-2406-B2A9-21C1-9642E428B6F8" name="Psicologia PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>86C674B6-6188-A36B-0917-25F715AEF7DD</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E3191E03-5F06-257E-860F-D3E93574D86E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

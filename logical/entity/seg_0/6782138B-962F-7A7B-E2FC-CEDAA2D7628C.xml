@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6782138B-962F-7A7B-E2FC-CEDAA2D7628C" name="CriterioEvaluación">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>4124D7E3-D250-BA7D-B207-219BA0B2A729</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigoCriterio" id="C9E1C5BD-EEEA-6BE6-FFFA-D33273321F9A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>8301EB69-6D0D-A5D7-6C46-9C64BEFFEE49</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="criterio" id="E05E8F23-141F-A6BC-D6F3-B2C0F5345506">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>A40E6453-8426-11A5-2F09-5A9F16E38CCD</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="560C199F-CE59-9EDB-3573-4E98DED1EBC4" name="CriterioEvaluación PK">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:42 UTC</createdTime>
+<generatorID>5770CA8E-871E-B49F-8A7C-4447B6A96FA7</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C9E1C5BD-EEEA-6BE6-FFFA-D33273321F9A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
