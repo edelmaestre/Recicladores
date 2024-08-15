@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Visita CumpCondSani FK" directorySegmentName="seg_0" id="604259EC-7E63-6DAC-3006-8B858BDC6168">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>96B00337-3BED-9B90-7F11-5F7B3BC44F85</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>FB885631-792F-CD0C-E517-6AA71C25ED12</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65BBE35B-9EC3-9250-45CC-9B76AC047688</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6C1A94A-900A-7720-74A3-B753F4A7E88A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

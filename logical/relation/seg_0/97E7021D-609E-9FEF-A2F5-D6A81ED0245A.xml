@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Reciclador_Municipio_FK" directorySegmentName="seg_0" id="97E7021D-609E-9FEF-A2F5-D6A81ED0245A">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 22:11:01 UTC</createdTime>
+<generatorID>E9A24F8A-8C08-0639-9BB5-80932EAE277C</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>BE214D32-C02C-448B-7454-4AC8FF0D020B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8AD2AA0F-4BBC-D362-66E4-A2333186A0C6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0041856F-B474-495D-00C7-6FF0620053AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

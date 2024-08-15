@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Salud_regimen_FK" directorySegmentName="seg_1" id="6CBB01B8-26AF-9498-6E4A-3955FC83FE62">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 22:11:01 UTC</createdTime>
+<generatorID>1A0AF9B2-E4BE-79AE-122C-0C4E7AB2EB54</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>51598E0A-8F7B-163F-78D3-BFBF59A72FB6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>63EE7DDE-1C53-3FD5-6DD0-BE0E46015538</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60BA718C-624C-7C2D-58A1-1D90A00C789D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

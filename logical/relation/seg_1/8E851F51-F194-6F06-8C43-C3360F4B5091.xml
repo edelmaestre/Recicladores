@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Salud_Psicologia_FK" directorySegmentName="seg_1" id="8E851F51-F194-6F06-8C43-C3360F4B5091">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 22:11:01 UTC</createdTime>
+<generatorID>4AA43F4A-4CD0-EC08-B0E9-5822011A4EA7</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>EFFABA8C-6221-BD9E-B83B-9A5FF1F48E9C</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D086F649-E3B0-1C1B-92D7-04E14D02FA7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60BA718C-624C-7C2D-58A1-1D90A00C789D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DPerson ViveCon FK" directorySegmentName="seg_0" id="E4947A2B-095B-EF7B-B362-79A7DA70D634">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>7BD5B61E-E80A-7EFE-9AAD-9DA0D289F28A</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>F5D1D6F4-640F-9B81-D9E7-65AD49A21318</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>701D3CF1-FCB1-2E9B-9E96-7B92D68B19E9</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0041856F-B474-495D-00C7-6FF0620053AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="DPerson Bar FK" directorySegmentName="seg_0" id="3E9AB348-A396-2B4F-6FDE-20D57E0980B5">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>72B3E5C3-E847-D994-267D-FB4B01E41A3C</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>C8E70B93-B2F6-FC8F-17F2-67B0BE6747C6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A47DA0DE-8356-06EC-F98B-712FC7B0C620</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0041856F-B474-495D-00C7-6FF0620053AE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

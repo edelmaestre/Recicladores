@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ResFam Depa FK" directorySegmentName="seg_0" id="DA6E1A6E-0FDC-E2E7-255F-7E79BFD98050">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>E8E16F0C-A6CF-3F94-ADDD-66D6027021C6</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>23D602CC-9DEE-49C3-F57D-8FDA0B2BE9A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3229409D-9FBC-EE43-63A2-428F1264F50E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A4F1D25-10A3-A36D-275C-D90778ED979C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Administrador_Encuestador_FK" directorySegmentName="seg_0" id="48D3824F-CFD5-C23B-6115-4A92062AFB46">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>9D842417-D984-EA86-BF83-03DC967307DF</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>DD3B2BF4-541D-4EF1-AE98-0B35CB8E0AFE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>655B174C-853B-74A2-7D04-C0C8F40688C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>2A0A12D4-7130-9F7E-1E4A-149003D6A8A1</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

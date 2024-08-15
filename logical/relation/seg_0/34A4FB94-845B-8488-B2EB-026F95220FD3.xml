@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sal MePla FK" directorySegmentName="seg_0" id="34A4FB94-845B-8488-B2EB-026F95220FD3">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>6DFB9DD5-A356-A5A9-1955-3D7E9DAC344D</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>DE251E78-7FAF-4957-BB26-2E0764B1C9E1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>65457CAB-8474-5162-7982-A737501FBE7F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60BA718C-624C-7C2D-58A1-1D90A00C789D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

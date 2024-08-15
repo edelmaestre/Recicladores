@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="IdentificacionEstablecimiento_Departamento_FKv1" directorySegmentName="seg_0" id="CA2384A7-5D1D-718D-C3D6-0C116E6570E7">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-09 22:11:01 UTC</createdTime>
+<generatorID>383A61FC-FD30-F548-1350-41A5EB1B1DA2</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>23D602CC-9DEE-49C3-F57D-8FDA0B2BE9A1</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3229409D-9FBC-EE43-63A2-428F1264F50E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>66DA044A-2884-40F9-DDFF-ACBBD8DD0D1A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

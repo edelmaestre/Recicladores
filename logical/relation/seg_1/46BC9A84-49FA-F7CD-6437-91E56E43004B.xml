@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Visita_CriterioEvaluación_FK" directorySegmentName="seg_1" id="46BC9A84-49FA-F7CD-6437-91E56E43004B">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:43 UTC</createdTime>
+<generatorID>A124246D-044C-5721-6646-59CA425A0835</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>560C199F-CE59-9EDB-3573-4E98DED1EBC4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6782138B-962F-7A7B-E2FC-CEDAA2D7628C</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6C1A94A-900A-7720-74A3-B753F4A7E88A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

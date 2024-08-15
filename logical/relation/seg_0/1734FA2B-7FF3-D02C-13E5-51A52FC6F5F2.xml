@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sal Enfe FK" directorySegmentName="seg_0" id="1734FA2B-7FF3-D02C-13E5-51A52FC6F5F2">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>6B542BA0-B409-A637-3FCA-1955BF66784A</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>E56C9957-7CC8-9D5E-97B3-B66493AD6FC2</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8693F41A-33D0-578D-AFBC-F92EEA4509F3</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>60BA718C-624C-7C2D-58A1-1D90A00C789D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Ce OriOcu FK" directorySegmentName="seg_0" id="A37ED6D4-62EC-6E66-87E7-2CEF14D07D78">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>8CBD1BDF-AAF7-5B96-BE26-72BE011BC3E5</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>9503658F-7DF9-180C-224F-B0DB68DB08C0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6F3B89E2-19CD-4259-9D43-A59D4372F7AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90C895E7-47B4-E720-2843-D2A0F8BE0A40</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Censo Encue FK" directorySegmentName="seg_0" id="99BD3D7B-3138-56E8-E40B-24ECCCDFB619">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-06 01:36:43 UTC</createdTime>
+<generatorID>B42A4352-76ED-D5DA-2E46-FC646C8763ED</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>DD3B2BF4-541D-4EF1-AE98-0B35CB8E0AFE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>655B174C-853B-74A2-7D04-C0C8F40688C4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>90C895E7-47B4-E720-2843-D2A0F8BE0A40</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

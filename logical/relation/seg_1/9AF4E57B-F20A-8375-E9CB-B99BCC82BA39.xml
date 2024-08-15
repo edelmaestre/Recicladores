@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Visita_ResiduosAprovechables_FK" directorySegmentName="seg_1" id="9AF4E57B-F20A-8375-E9CB-B99BCC82BA39">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-12 18:37:43 UTC</createdTime>
+<generatorID>A429EE83-EF6B-82A6-FC78-EE357ECED3CB</generatorID>
+<ownerDesignName>recicladores modelo</ownerDesignName>
+<engineerTo>
+<item key="05EF2D2C-FE3A-A466-B6EB-3E2F8D7C3F32" value="true"/>
+<item key="6664BC7E-F11C-6F80-411A-BB2E665BFCC5" value="true"/>
+</engineerTo>
+<sourcePk>C900B4BB-3DD7-75F6-D3F6-70ACB650D977</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0762172D-849A-9C2B-6F48-E29F5E07A3F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>E6C1A94A-900A-7720-74A3-B753F4A7E88A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
