@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="119D6970-8527-AB11-49F3-32259D5AF8EC" mainViewID="C95E48CD-A3BC-F037-8FE8-1CA6F418AFF5">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-22 15:40:57 UTC</createdTime>
+<ownerDesignName>recicladores-copia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
