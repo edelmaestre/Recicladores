@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="EAB0D7F0-5215-E11E-D17D-80976150BD80">
+<createdBy>Edelberto</createdBy>
+<createdTime>2022-11-22 15:40:57 UTC</createdTime>
+<ownerDesignName>recicladores-copia</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>
